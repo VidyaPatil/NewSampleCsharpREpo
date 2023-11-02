@@ -25,7 +25,7 @@ namespace SampleCodeAnalyzerProject2
     }
     class FolderStructure
     {
-        [JsonIgnore]
+   
         public string parentName { get; set; }
 
         public string displayName { get; set; }
