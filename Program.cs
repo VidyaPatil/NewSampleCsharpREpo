@@ -46,7 +46,7 @@ namespace SampleCodeAnalyzerProject2
             Console.WriteLine("My name is ", fullname);
             
             object myObject1 = null;
-            string myString1 = (string)myObject1; // my string1 will be null
+            string myString1 = (string)myObject1; 
             object myObject2 = null;
             string myString2 = myObject1 as string;
             List<string> distributionGroups = new List<string>();
