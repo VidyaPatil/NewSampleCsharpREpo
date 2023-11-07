@@ -43,7 +43,7 @@ namespace SampleCodeAnalyzerProject2
             string firstname = null;
             string lastname = Console.ReadLine();
             var fullname = string.Format("{0} {1}", firstname);
-            Console.WriteLine("My name is ", fullname);
+            Console.WriteLine("My fullname is ", fullname);
             
             object myObject1 = null;
             string myString1 = (string)myObject1; 
