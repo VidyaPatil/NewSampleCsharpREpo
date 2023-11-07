@@ -57,7 +57,6 @@ namespace SampleCodeAnalyzerProject2
             var amendments = Newtonsoft.Json.JsonConvert.DeserializeObject<List<dynamic>>("");
             distributionGroups.Add("ab");
             distributionGroups.Add("abc");
-            distributionGroups.Add("abcz");
             if (distributionGroups.Where(x => x == "n").Any())
             {
 
