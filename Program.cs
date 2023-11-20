@@ -44,9 +44,11 @@ namespace SampleCodeAnalyzerProject2
             string lastname = Console.ReadLine();
             var fullname = string.Format("{0} {1}", firstname);
             Console.WriteLine("My fullname is ", fullname);
-            
+            string password  ="pwd";
+            Console.WriteLine("My fullname is ", password);
             object myObject1 = null;
             string myString1 = (string)myObject1; 
+            string myString3 = (string)myObject1; 
             object myObject2 = null;
             string myString2 = myObject1 as string;
             List<string> distributionGroups = new List<string>();
@@ -58,6 +60,7 @@ namespace SampleCodeAnalyzerProject2
             distributionGroups.Add("ab");
             distributionGroups.Add("abc");
             distributionGroups.Add("abcz");
+            distributionGroups =null;
             if (distributionGroups.Where(x => x == "n").Any())
             {
 
